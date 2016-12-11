@@ -45,4 +45,4 @@ function show_films($films){
 </table>
 <?php
 }
-?>
+?> 
