@@ -3,7 +3,7 @@
 /*Questa funzione cerca l'id dell'attore con cognome $lastname e con nome che comincia con $firstname, che risulti recitare in più film. */
 function show_id($db,$firstname,$lastname){
     $firstname=$db->quote($firstname  .  "%");
-    $lastname =$db->quote($lastname);
+    $lastname =$db->quote($lastname); 
     $subquery ="SELECT actor_id, count(*) as howManyMovies
                 FROM roles
                 WHERE actor_id in 
