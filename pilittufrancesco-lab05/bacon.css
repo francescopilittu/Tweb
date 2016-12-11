@@ -1,58 +1,42 @@
-
-body{
-    background-color: #dad9d4;
-    font-family: Verdana, sans-serif;
-}
-
 #frame{
     width: 90%;
+    margin:auto;
     background-color: #FFF;
-    margin: auto;
 }
-
+#banner, #w3c{
+    font-weight: bold;
+    color: gray;
+    padding:1em;
+}
 #main{
     text-align: center;
 }
-
-h1{
-    color: #2e2e2e;
-    font-weight: bold;
-    font-size: 24pt;
-}
-
-
-
 #main fieldset{
     width: 50%;
-    margin-bottom: 1em;
-    margin-top: 1em;
-    margin: auto;
+    margin:auto;
 }
-
 #main > table{
-    margin: auto;
     width: 80%;
-    border-collapse: collapse;
+    margin:auto;
 }
-
+body{
+    background-color: #a09f8b;
+    font-family: Arial;
+}
 tr{
-    border: 1px solid #dad9d4;
+    border: 1px solid #a09f8b;
 }
-
+tr:nth-child(2n + 2){
+    background-color: #a09f8b;
+}
 th{
     font-weight: bold;
 }
-
-th, td{
-    border-width: 0px;
-}
-
-tr:nth-child(2n + 2){
-    background-color: #dad9d4;
-}
-
-#banner, #w3c{
-    padding: 1em;
+h1{
+    color: #a09f8b;
     font-weight: bold;
-    color: #FFF;
+    font-size: 18pt;
 }
+
+
+
