@@ -1,0 +1,58 @@
+
+body{
+    background-color: #dad9d4;
+    font-family: Verdana, sans-serif;
+}
+
+#frame{
+    width: 90%;
+    background-color: #FFF;
+    margin: auto;
+}
+
+#main{
+    text-align: center;
+}
+
+h1{
+    color: #2e2e2e;
+    font-weight: bold;
+    font-size: 24pt;
+}
+
+
+
+#main fieldset{
+    width: 50%;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    margin: auto;
+}
+
+#main > table{
+    margin: auto;
+    width: 80%;
+    border-collapse: collapse;
+}
+
+tr{
+    border: 1px solid #dad9d4;
+}
+
+th{
+    font-weight: bold;
+}
+
+th, td{
+    border-width: 0px;
+}
+
+tr:nth-child(2n + 2){
+    background-color: #dad9d4;
+}
+
+#banner, #w3c{
+    padding: 1em;
+    font-weight: bold;
+    color: #FFF;
+}
